@@ -8,7 +8,7 @@ const gitCommit = process.env.GIT_COMMIT || 'N/A';
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Hello from the Advanced Node.js App!COde CHange Detected</h1>
+    <h1>Hello from the Advanced Node.js App!COde CHange 3</h1>
     <p>This application was built with Jenkins and Docker.</p>
     <ul>
       <li><b>Jenkins Build ID:</b> ${buildId}</li>
