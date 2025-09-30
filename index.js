@@ -7,7 +7,7 @@ const buildId = process.env.BUILD_ID || 'N/A';
 const gitCommit = process.env.GIT_COMMIT || 'N/A';
 
 app.get('/', (req, res) => {
-  res.send(`Hello from Docker! TRIGGER2!!!! Jenkins Build ID: ${buildId}, Git Commit: ${gitCommit}`);
+  res.send(`Hello from Docker! TRIGGER3!!!! Jenkins Build ID: ${buildId}, Git Commit: ${gitCommit}`);
 });
 
 app.listen(PORT, () => {
